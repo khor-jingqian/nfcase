@@ -3,22 +3,24 @@
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  background-color: aqua;
   justify-content: center;
   text-align: center;
   margin-top: 10px;
 }
 
 .listing {
+  max-width: 80vw;
   width: 450px;
   height: fit-content;
   margin: 15px;
   background-color: aliceblue;
+  border-radius: 20px;
 }
 
 .listing:hover {
   transform: translateY(-10px);
   transition: 0.5s ease;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .listing-img {
