@@ -11,6 +11,10 @@ class Job extends Component {
     };
   }
   render() {
+    // Layout of every Job component.
+    // Map every dummy tag into a span in the div to
+    // dynamically create the tags on the job listing
+
     return (
       <div className="listing">
         <img src={logo} className="listing-img"></img>

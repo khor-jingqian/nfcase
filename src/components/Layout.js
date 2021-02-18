@@ -4,6 +4,9 @@ import Job from "./Job";
 
 import "./Layout.css";
 
+// Layout consists of Job components that are
+// arranged by flex div
+
 class Layout extends Component {
   render() {
     return (
